@@ -80,15 +80,19 @@ function answer(){
         if (inputAnswer.value == additionAnswer) {
             updateScoreCorrect();
             startGame();
+            alert("Correct answer");
         }else if(inputAnswer.value == substractAnswer){
             updateScoreCorrect();
             startGame();
+            alert("Correct answer");
         }else if(inputAnswer.value == multiplyAnswer){
             updateScoreCorrect();
             startGame();
+            alert("Correct answer");
         }else if(inputAnswer.value == divisionAnswer){
             updateScoreCorrect();
             startGame();
+            alert("Correct answer");
         }else {
             alert("Wrong answer");
             updateScoreIncorrect();
